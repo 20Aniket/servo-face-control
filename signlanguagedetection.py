@@ -4,7 +4,7 @@ import serial
 
 def main():
     # Establish serial connection with Arduino
-    arduino = serial.Serial('/dev/cu.usbmodem101', 9600)
+    arduino = serial.Serial('/dev/cu.usb...', 9600)
     
     mp_holistic = mp.solutions.holistic.Holistic(
         min_detection_confidence=0.5,
